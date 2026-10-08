@@ -1,0 +1,33 @@
+# Dependencies and generated output
+node_modules/
+*.tsbuildinfo
+coverage/
+/converter-site/src/generated/
+/converter-site/dist/
+
+# Optional local checkout of the external mapping guide (also used by CI)
+/.guide/
+
+# Environment and secrets
+.env
+.env.*
+!.env.example
+
+# Logs, temporary files, editors, and operating systems
+*.log
+*.tmp
+*.bak
+*.swp
+*.swo
+*~
+.DS_Store
+Thumbs.db
+Desktop.ini
+.vs/
+.idea/
+*.code-workspace
+
+# >>> dev-* skills (managed by dev-setup) >>>
+# Local scratch workspace for dev-* skills
+/scratch/
+# <<< dev-* skills (managed by dev-setup) <<<
